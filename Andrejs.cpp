@@ -4,14 +4,14 @@
 
 using namespace std;
 
-Andrejs::Andrejs(string n)
+Andrejs::Andrejs(string a)
 {
-	name=n;
+	name=a;
 }
 
-void Andrejs::setName(string n)
+void Andrejs::setName(string a)
 {
-	name=n;
+	name=a;
 }
 
 void Andrejs::Print() const
